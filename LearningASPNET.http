@@ -30,4 +30,22 @@ Content-Type: application/json
 
 ###
 
+GET {{LearningASPNET_HostAddress}}/pizza/3
+Accept: application/json
 
+###
+
+PUT {{LearningASPNET_HostAddress}}/pizza/3
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Hawaiian",
+    "isGlutenFree": false
+}
+
+###
+
+DELETE {{LearningASPNET_HostAddress}}/pizza/3
+
+###
